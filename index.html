@@ -1,351 +1,454 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Edu+NSW+ACT+Foundation:wght@500&family=Open+Sans:ital,wght@0,400;0,500;0,700;0,800;1,300&family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/Resto.css">
-    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.min.css">
-    <link rel="stylesheet" href="../Restaurant/css/animate.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Edu+NSW+ACT+Foundation:wght@500&family=Open+Sans:ital,wght@0,400;0,500;0,700;0,800;1,300&family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/Resto.css" />
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="../Restaurant/css/animate.css" />
     <script src="../Restaurant/wow.js"></script>
     <script>
-    new WOW().init();
+      new WOW().init();
     </script>
     <title>Restaurant</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- ---------Start header-------- -->
     <header class="header">
-<div class="navi">
-            <div class="container">
-        <!-- ---------Start Nav-------- -->
-                <div class="nav">
-                    <div class="logo"><h1>Sav<span class="highlight">oria</span></h1></div>
-    
-                    <div class="navigation">
-                        <ul class="nav-menu">
-                            <li class="nav-item"><a href="#home">Home</a></li>
-                            <li class="nav-item"><a href="#meals">Meals</a></li>
-                            <li class="nav-item"><a href="#about">About US</a></li>
-                            <li class="nav-item"><a href="#menu">Menu</a></li>
-                            <li class="nav-item"><a href="#blog">Blog</a></li>
-                        </ul>
-                    </div>
-                    <span class="mobile-menu"><i class="fa-solid fa-bars"></i></span>
-                </div>
+      <div class="navi">
+        <div class="container">
+          <!-- ---------Start Nav-------- -->
+          <div class="nav">
+            <div class="logo">
+              <h1>Sav<span class="highlight">oria</span></h1>
             </div>
-</div>
-    <!-- ---------End Nav-------- -->
+
+            <div class="navigation">
+              <ul class="nav-menu">
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="#meals">Meals</a></li>
+                <li class="nav-item"><a href="#about">About US</a></li>
+                <li class="nav-item"><a href="#menu">Menu</a></li>
+                <li class="nav-item"><a href="#blog">Blog</a></li>
+              </ul>
+            </div>
+            <span class="mobile-menu"><i class="fa-solid fa-bars"></i></span>
+          </div>
+        </div>
+      </div>
+      <!-- ---------End Nav-------- -->
     </header>
-        <!-- ---------End header-------- -->
+    <!-- ---------End header-------- -->
 
-        <!-- ---------Start Main-------- -->
-<main>
-    <section id="home" class="section">
+    <!-- ---------Start Main-------- -->
+    <main>
+      <section id="home" class="section">
         <div class="container">
-            <div class="hero-wrap">
-                <div class="hero-content">
-                    <h2 class="hero-title">Today's Special</h2>
-                    <h2 class="highlight">Seafood</h2>
-                    <p>Seafood is any form of sea life regarded as food by humans, prominently including fish and shellfish.</p>
+          <div class="hero-wrap">
+            <div class="hero-content">
+              <h2 class="hero-title">Today's Special</h2>
+              <h2 class="highlight">Seafood</h2>
+              <p>
+                Seafood is any form of sea life regarded as food by humans,
+                prominently including fish and shellfish.
+              </p>
 
-                    <div class="hero-btn">
-                        <button class="view"><a href="#menu">View Menu</a></button>
-                        <span class="play-btn"><i class="fa-solid fa-play"></i></span>
-                    </div>
-                </div>
-                <div class="hero-img">
-                    <img src="../Restaurant/Img/seafood.png">
-                </div>
+              <div class="hero-btn">
+                <button class="view"><a href="#menu">View Menu</a></button>
+                <span class="play-btn"><i class="fa-solid fa-play"></i></span>
+              </div>
             </div>
+            <div class="hero-img">
+              <img alt="img" loading="lazy" src="img/seafood.png" />
+            </div>
+          </div>
         </div>
-    </section>
-    <!-- ------- Start Dishes------- -->
+      </section>
+      <!-- ------- Start Dishes------- -->
 
-    <section class="section wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s" id="meals">
+      <section
+        class="section wow fadeInUp"
+        data-wow-duration="1s"
+        data-wow-delay="0.8s"
+        id="meals"
+      >
         <div class="container">
-            <div class="dish-top">
-                <h2>popular <span class="highlight">Dishes</span></h2>
-            </div>
+          <div class="dish-top">
+            <h2>popular <span class="highlight">Dishes</span></h2>
+          </div>
 
-            <div class="dishes-wrap">
-                <div class="dish-item">
-                    <div class="dish-img">
-                        <img src="../Restaurant/Img/im1.jpg">
-                    </div>
-                    <div class="dish-content">
-                        <h3>Shrimp</h3>
-                        <div class="rate">
-                            <span><i class="fa-solid fa-star"></i></span>
-                            <span><i class="fa-solid fa-star"></i></span>
-                            <span><i class="fa-solid fa-star"></i></span>
-                            <span><i class="fa-solid fa-star"></i></span>
-                            <span><i class="fa-regular fa-star-half-stroke"></i></span>
-                        </div>
-                        <div class="dish-bot">
-                            <span class="dish-price">$99.78</span>
-                            <span class="cart"><i class="fa-solid fa-cart-shopping"></i></span>
-                        </div>
-                    </div>
+          <div class="dishes-wrap">
+            <div class="dish-item">
+              <div class="dish-img">
+                <img alt="img" loading="lazy" src="img/im1.jpg" />
+              </div>
+              <div class="dish-content">
+                <h3>Shrimp</h3>
+                <div class="rate">
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-regular fa-star-half-stroke"></i></span>
                 </div>
-                <div class="dish-item">
-                    <div class="dish-img">
-                        <img src="../Restaurant/Img/im2.jpg">
-                    </div>
-                    <div class="dish-content">
-                        <h3>oyster</h3>
-                        <div class="rate">
-                            <span><i class="fa-solid fa-star"></i></span>
-                            <span><i class="fa-solid fa-star"></i></span>
-                            <span><i class="fa-solid fa-star"></i></span>
-                            <span><i class="fa-solid fa-star"></i></span>
-                            <span><i class="fa-regular fa-star-half-stroke"></i></span>
-                        </div>
-                        <div class="dish-bot">
-                            <span class="dish-price">$55.20</span>
-                            <span class="cart"><i class="fa-solid fa-cart-shopping"></i></span>
-                        </div>
-                    </div>
+                <div class="dish-bot">
+                  <span class="dish-price">$99.78</span>
+                  <span class="cart"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></span>
                 </div>
-                <div class="dish-item">
-                    <div class="dish-img">
-                        <img src="../Restaurant/Img/im3.jpg">
-                    </div>
-                    <div class="dish-content">
-                        <h3>shellfish</h3>
-                        <div class="rate">
-                            <span><i class="fa-solid fa-star"></i></span>
-                            <span><i class="fa-solid fa-star"></i></span>
-                            <span><i class="fa-solid fa-star"></i></span>
-                            <span><i class="fa-solid fa-star"></i></span>
-                            <span><i class="fa-regular fa-star-half-stroke"></i></span>
-                        </div>
-                        <div class="dish-bot">
-                            <span class="dish-price">$80.50</span>
-                            <span class="cart"><i class="fa-solid fa-cart-shopping"></i></span>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+            <div class="dish-item">
+              <div class="dish-img">
+                <img alt="img" loading="lazy" src="img/im2.jpg" />
+              </div>
+              <div class="dish-content">
+                <h3>oyster</h3>
+                <div class="rate">
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-regular fa-star-half-stroke"></i></span>
+                </div>
+                <div class="dish-bot">
+                  <span class="dish-price">$55.20</span>
+                  <span class="cart"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></span>
+                </div>
+              </div>
+            </div>
+            <div class="dish-item">
+              <div class="dish-img">
+                <img alt="img" loading="lazy" src="img/im3.jpg" />
+              </div>
+              <div class="dish-content">
+                <h3>shellfish</h3>
+                <div class="rate">
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-regular fa-star-half-stroke"></i></span>
+                </div>
+                <div class="dish-bot">
+                  <span class="dish-price">$80.50</span>
+                  <span class="cart"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
-        <!-- ------- End Dishes------- -->
+      </section>
+      <!-- ------- End Dishes------- -->
 
-        <!-------------Start About-------------->
-        <section class="section wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.8s"id="about">
-            <div class="container">
-                <div class="about-wrap">
-                    <div class="about-img">
-                        <img src="../Restaurant/Img/im4.jpg" width="400" height="300">
-                    </div>
-
-                    <div class="about-content">
-                        <h3>Salmon</h3>
-                        <p>Norwegian Gourmet Frozen Raw & Smoked Salmon.</p>
-                        <button class="learn-more"><a href="#">Learn More</a></button>
-                    </div>
-                </div>
+      <!-------------Start About-------------->
+      <section
+        class="section wow fadeInUp"
+        data-wow-duration="1s"
+        data-wow-delay="0.8s"
+        id="about"
+      >
+        <div class="container">
+          <div class="about-wrap">
+            <div class="about-img">
+              <img
+                alt="img"
+                loading="lazy"
+                src="img/im4.jpg"
+                width="400"
+                height="300"
+              />
             </div>
-        </section>
-                <!-------------End About-------------->
 
-                <!-------------Start Menu-------------->
-        <section class="section wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s" id="menu">
-            <div class="container">
-                <div class="menu-top">
-                    <h2>Our <span class="highlight">Menu</span> To You</h2>
-                </div>
-                <div class="menu-rap">
-                    <div class="menu-item">
-                        <div class="menu-img">
-                            <img src="../Restaurant/Img/im5.jpg" width="350px" height="300px">
-                        </div>
-                        <h3>Fresh Shrimp</h3>
-                        <div class="menu-bot">
-                            <div>
-                                <div class="rate">
-                                    <span><i class="fa-solid fa-star"></i></span>
-                                    <span><i class="fa-solid fa-star"></i></span>
-                                    <span><i class="fa-solid fa-star"></i></span>
-                                    <span><i class="fa-solid fa-star"></i></span>
-                                    <span><i class="fa-regular fa-star-half-stroke"></i></span>
-                                </div>
-                                <span class="dish-price">$99</span>
-                            </div>
-                            <div class="menu-bot">
-                                <span class="cart"><i class="fa-solid fa-cart-shopping"></i></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-img">
-                        <img src="../Restaurant/Img/im6.jpg" width="350px" height="300px">
-                    </div>
-                    <h3> Shrimp With Rice</h3>
-                    <div class="menu-bot">
-                        <div>
-                            <div class="rate">
-                                <span><i class="fa-solid fa-star"></i></span>
-                                <span><i class="fa-solid fa-star"></i></span>
-                                <span><i class="fa-solid fa-star"></i></span>
-                                <span><i class="fa-solid fa-star"></i></span>
-                                <span><i class="fa-regular fa-star-half-stroke"></i></span>
-                            </div>
-                            <span class="dish-price">$110</span>
-                        </div>
-                        <div class="menu-bot">
-                            <span class="cart"><i class="fa-solid fa-cart-shopping"></i></span>
-                    </div>
-                </div>
+            <div class="about-content">
+              <h3>Salmon</h3>
+              <p>Norwegian Gourmet Frozen Raw & Smoked Salmon.</p>
+              <button class="learn-more"><a href="#">Learn More</a></button>
             </div>
-                <div class="menu-item">
-                    <div class="menu-img">
-                        <img src="../Restaurant/Img/im7.jpg" width="350px" height="300px">
-                    </div>
-                    <h3>Fresh squid</h3>
-                    <div class="menu-bot">
-                        <div>
-                            <div class="rate">
-                                <span><i class="fa-solid fa-star"></i></span>
-                                <span><i class="fa-solid fa-star"></i></span>
-                                <span><i class="fa-solid fa-star"></i></span>
-                                <span><i class="fa-solid fa-star"></i></span>
-                                <span><i class="fa-regular fa-star-half-stroke"></i></span>
-                            </div>
-                            <span class="dish-price">$120</span>
-                        </div>
-                        <div class="menu-bot">
-                            <span class="cart"><i class="fa-solid fa-cart-shopping"></i></span>
-                    </div>
+          </div>
+        </div>
+      </section>
+      <!-------------End About-------------->
+
+      <!-------------Start Menu-------------->
+      <section
+        class="section wow fadeInUp"
+        data-wow-duration="1s"
+        data-wow-delay="0.8s"
+        id="menu"
+      >
+        <div class="container">
+          <div class="menu-top">
+            <h2>Our <span class="highlight">Menu</span> To You</h2>
+          </div>
+          <div class="menu-rap">
+            <div class="menu-item">
+              <div class="menu-img">
+                <img
+                  alt="img"
+                  loading="lazy"
+                  src="img/im5.jpg"
+                  width="350px"
+                  height="300px"
+                />
+              </div>
+              <h3>Fresh Shrimp</h3>
+              <div class="menu-bot">
+                <div>
+                  <div class="rate">
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-regular fa-star-half-stroke"></i></span>
+                  </div>
+                  <span class="dish-price">$99</span>
                 </div>
-            </div>
+                <div class="menu-bot">
+                  <span class="cart"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></span>
                 </div>
-
+              </div>
             </div>
-        </section>
-                <!-------------End Menu-------------->
+            <div class="menu-item">
+              <div class="menu-img">
+                <img
+                  alt="img"
+                  loading="lazy"
+                  src="img/im6.jpg"
+                  width="350px"
+                  height="300px"
+                />
+              </div>
+              <h3>Shrimp With Rice</h3>
+              <div class="menu-bot">
+                <div>
+                  <div class="rate">
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-regular fa-star-half-stroke"></i></span>
+                  </div>
+                  <span class="dish-price">$110</span>
+                </div>
+                <div class="menu-bot">
+                  <span class="cart"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-img">
+                <img
+                  alt="img"
+                  loading="lazy"
+                  src="img/im7.jpg"
+                  width="350px"
+                  height="300px"
+                />
+              </div>
+              <h3>Fresh squid</h3>
+              <div class="menu-bot">
+                <div>
+                  <div class="rate">
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-regular fa-star-half-stroke"></i></span>
+                  </div>
+                  <span class="dish-price">$120</span>
+                </div>
+                <div class="menu-bot">
+                  <span class="cart"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-------------End Menu-------------->
 
+      <!-------------Start Offer-------------->
 
-                <!-------------Start Offer-------------->
+      <section
+        class="section wow fadeInUp"
+        data-wow-duration="1s"
+        data-wow-delay="0.8s"
+      >
+        <div class="container">
+          <div class="off-wrap">
+            <div class="off-content">
+              <h2>
+                Cet Upto <span class="highlight">50%</span> Offer on Festival.!
+              </h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Aperiam, consequuntur!
+              </p>
 
-                <section class="section wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s">
-                    <div class="container">
-                        <div class="off-wrap">
-                            <div class="off-content">
-                                <h2>Cet Upto <span class="highlight">50%</span> Offer 
-                                on Festival.!</h2>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, consequuntur!</p>
+              <button class="view">Offer</button>
+            </div>
+            <div class="off-img">
+              <img alt="img" loading="lazy" src="img/im8.jpg" />
+            </div>
+          </div>
+        </div>
+      </section>
 
-                                <button class="view">Offer</button>
-                            </div>
-                            <div class="off-img">
-                                <img src="../Restaurant/Img/im8.jpg">
-                            </div>
-                        </div>
-                    </div>
-                </section>
+      <!-------------End Offer-------------->
+      <!-------------Start Blog-------------->
 
-                <!-------------End Offer-------------->
-                <!-------------Start Blog-------------->
+      <section
+        class="section wow fadeInUp"
+        data-wow-duration="1s"
+        data-wow-delay="0.8s"
+        id="blog"
+      >
+        <div class="container">
+          <div class="blog-top">
+            <h2>Our Top <span class="highlight">Recipes</span></h2>
+          </div>
 
-                <section class="section wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.8s"id="blog">
-                    <div class="container">
-                        <div class="blog-top">
-                            <h2>Our Top <span class="highlight">Recipes</span></h2>
-                        </div>
+          <div class="blog-wrap">
+            <div class="blog-item">
+              <div class="blog-img">
+                <img alt="img" loading="lazy" src="img/im9.png" alt="" />
+              </div>
+              <div class="blog-content">
+                <h3>shrimps and lemon.</h3>
+                <p>
+                  shrimps and lemon, seafood, crabs, freshness, gourmet, meal,
+                  red.
+                </p>
+                <button class="view"><a href="#">Order Now</a></button>
+              </div>
+            </div>
+            <div class="blog-item">
+              <div class="blog-img">
+                <img alt="img" loading="lazy" src="img/im10.png" alt="" />
+              </div>
+              <div class="blog-content">
+                <h3>Shrimp Dish .</h3>
+                <p>
+                  Seafood dish on cook during daytime, paella, lena, mixed,
+                  valencia.
+                </p>
+                <button class="view"><a href="#">Order Now</a></button>
+              </div>
+            </div>
+            <div class="blog-item">
+              <div class="blog-img">
+                <img alt="img" loading="lazy" src="img/im11.png" alt="" />
+              </div>
+              <div class="blog-content">
+                <h3>Lobsters.</h3>
+                <p>
+                  Food, Seafood, Crustacean, Fish, Lobster, Shrimp, Still Life.
+                </p>
+                <button class="view"><a href="#">Order Now</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-                        <div class="blog-wrap">
-                            <div class="blog-item">
-                                <div class="blog-img">
-                                    <img src="../Restaurant/Img/im9.png" alt="">
-                                </div>
-                                <div class="blog-content">
-                                    <h3>shrimps and lemon.</h3>
-                                    <p>shrimps and lemon, seafood, crabs, freshness, gourmet, meal, red.</p>
-                                    <button class="view"><a href="#">Order Now</a></button>
-                                </div>
-                            </div>
-                            <div class="blog-item">
-                                <div class="blog-img">
-                                    <img src="../Restaurant/Img/im10.png" alt="">
-                                </div>
-                                <div class="blog-content">
-                                    <h3>Shrimp Dish .</h3>
-                                    <p>Seafood dish on cook during daytime, paella, lena, mixed, valencia.</p>
-                                    <button class="view"><a href="#">Order Now</a></button>
-                                </div>
-                            </div>
-                            <div class="blog-item">
-                                <div class="blog-img">
-                                    <img src="../Restaurant/Img/im11.png" alt="">
-                                </div>
-                                <div class="blog-content">
-                                    <h3>Lobsters.</h3>
-                                    <p>Food, Seafood, Crustacean, Fish, Lobster, Shrimp, Still Life.</p>
-                                    <button class="view"><a href="#">Order Now</a></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+      <!-------------End Blog-------------->
 
-                <!-------------End Blog-------------->
+      <!-------------Start Footer-------------->
 
-                <!-------------Start Footer-------------->
+      <footer class="section footer">
+        <div class="container">
+          <div class="footer-wrap">
+            <div class="footer-logo">
+              <div class="logo-f">
+                <h1>Sav<span class="highlight">oria</span></h1>
+              </div>
+              <p>Subscribe Us to Get New</p>
+              <div class="subscribe-box">
+                <input type="email" placeholder="Your Email" />
+                <button class="subscribe-btn">Subscribe</button>
+              </div>
+            </div>
 
-                <footer class="section footer">
-                    <div class="container">
-                        <div class="footer-wrap">
-                            <div class="footer-logo">
-                                <div class="logo-f">
-                                    <h1>Sav<span class="highlight">oria</span></h1>
-                                </div>
-                                <p>Subscribe Us to Get New</p>
-                                <div class="subscribe-box">
-                                    <input type="email" placeholder="Your Email">
-                                    <button class="subscribe-btn">Subscribe</button>
-                                </div>
-                            </div>
+            <div class="footer-box">
+              <h3 class="footer-tittle">Information</h3>
+              <ul class="footer-menu">
+                <li class="footer-item">
+                  <a href="#about" class="footer-link">About Us</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Events</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Festival</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Our Chefs</a>
+                </li>
+              </ul>
+            </div>
 
-                            <div class="footer-box">
-                                <h3 class="footer-tittle">Information</h3>
-                                <ul class="footer-menu">
-                                    <li class="footer-item"><a href="#about" class="footer-link">About Us</a></li>
-                                    <li class="footer-item"><a href="#" class="footer-link">Events</a></li>
-                                    <li class="footer-item"><a href="#" class="footer-link">Festival</a></li>
-                                    <li class="footer-item"><a href="#" class="footer-link">Our Chefs</a></li>
-                                </ul>
-                            </div>
+            <div class="footer-box">
+              <h3 class="footer-tittle">Communication</h3>
+              <ul class="footer-menu">
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Services</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Online Order</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Contact Us</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Deliver</a>
+                </li>
+              </ul>
+            </div>
 
-                            <div class="footer-box">
-                                <h3 class="footer-tittle">Communication</h3>
-                                <ul class="footer-menu">
-                                    <li class="footer-item"><a href="#" class="footer-link">Services</a></li>
-                                    <li class="footer-item"><a href="#" class="footer-link">Online Order</a></li>
-                                    <li class="footer-item"><a href="#" class="footer-link">Contact Us</a></li>
-                                    <li class="footer-item"><a href="#" class="footer-link">Deliver</a></li>
-                                </ul>
-                            </div>
+            <div class="footer-box">
+              <h3 class="footer-tittle">Social</h3>
+              <ul class="footer-menu">
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Facebook</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Instagram</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Twitter</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Whatsapp</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <p class="copy">
+            <span class="cop">&copy</span> Developed By Ramadan .All rights
+            reserved...
+          </p>
+        </div>
+      </footer>
 
-                            <div class="footer-box">
-                                <h3 class="footer-tittle">Social</h3>
-                                <ul class="footer-menu">
-                                    <li class="footer-item"><a href="#" class="footer-link">Facebook</a></li>
-                                    <li class="footer-item"><a href="#" class="footer-link">Instagram</a></li>
-                                    <li class="footer-item"><a href="#" class="footer-link">Twitter</a></li>
-                                    <li class="footer-item"><a href="#" class="footer-link">Whatsapp</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <p class="copy"> <span class="cop">&copy</span> Developed By Ramadan .All 
-                            rights reserved...
-                        </p>
-                    </div>
-                </footer>
-
-                <!-------------End Footer-------------->
-</main>
-</body>
+      <!-------------End Footer-------------->
+    </main>
+  </body>
 </html>
